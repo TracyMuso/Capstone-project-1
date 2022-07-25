@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  top: 0;
+  height: 5rem;
+  overflow: hidden;
+  display: block;
+  background: rgba(211, 211, 211, 0.7);
+}
+
+.bi-list {
+  font-size: 50px;
+  top: 0;
+  color: #272a31;
+  position: fixed;
+  padding: 0.5rem;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 1rem 0 0;
+  background: rgba(211, 211, 211, 0.7);
+  padding: 0.5rem 3rem 0.5rem 0.5rem;
+}
+
+#title {
+  margin: auto;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#sub-title {
+  font-weight: 100;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+#main-title {
+  font-size: 4ch;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin-top: 0.5rem;
+}
+
+#intro-text {
+  width: 90%;
+  border: solid 0.3em rgb(254, 248, 248);
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+#dets {
+  padding: 0.4rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2.5ch;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+#program-dets {
+  background: #272a31;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+h3 {
+  color: #fff;
+}
+
+.p-grid {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 38% 58%;
+  gap: 4%;
+  margin: 1rem auto;
+  background: rgba(125, 132, 147, 0.14);
+}
+
+.grid-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topic {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ec5242;
+}
+
+.svg {
+  color: #cc8c85;
+  background-color: #cc8c85;;
+  width: 2rem;
+  padding: 5px;
+  margin-left: 0.5rem;
+}
+
+.grid-two {
+  text-align: start;
+}
+
+.p-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 0.05em;
+}
+
+button {
+  background: #ec5242;
+  width: 16rem;
+  padding: 1rem;
+  border: #ec5242;
+  color: #fff;
+  margin-bottom: 2rem;
+}
