@@ -13,7 +13,6 @@ nav {
   height: 5rem;
   overflow: hidden;
   display: block;
-  white-space: no-wrap;
   background: rgba(211, 211, 211, 0.7);
 }
 
