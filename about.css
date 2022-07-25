@@ -75,6 +75,7 @@ nav {
 #bc-dets {
     text-align: center;
     width: 100%;
+    border-bottom: solid 1px rgb(209, 203, 203);
 }
 
 #bc-cont {
@@ -99,4 +100,59 @@ nav {
     font-weight: 600;
     letter-spacing: 0.05em;
     margin: auto;
+}
+
+#logo-text {
+    width: 70%;
+    margin: 1rem auto;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#p-logo {
+    font-size: 14px;
+    text-align: center;
+}
+
+#past {
+    width: 100%;
+    text-align: center;
+}
+
+#pic-cont1 {
+    width: 75%;
+    margin: auto;
+    background-image: url();
+    height: 8rem;
+    text-align: center;
+    background: rgba(209, 51, 33, 0.57);
+}
+
+#pic-cont2 {
+    text-align: center;
+    width: 75%;
+    margin: 1rem auto;
+    background-image: url();
+    height: 8rem;
+    background: rgba(209, 51, 33, 0.57);
+}
+
+.cont {
+    text-align: center;
+    margin: 2rem 0 auto auto;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 1rem 0 0.1rem 0.1rem;
+}
+
+.img-text {
+    font-size: 12px;
+    margin:  auto auto;
+    padding: 0 0.1rem;
 }
