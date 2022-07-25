@@ -74,9 +74,54 @@ h2 {
     background: #272a31;
     padding: 0.5rem;
     text-align: center;
+    width: 100%;
 }
 
 h3 {
     color: #fff;
 }
 
+.p-grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 38% 58%;
+    gap: 4%;
+    margin: 1rem auto;
+    background: rgba(125, 132, 147, 0.14);
+}
+
+.grid-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topic {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ec5242;
+}
+
+.grid-two {
+    text-align: start;
+}
+
+.p-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 0.05em;
+}
+
+button {
+    background: #ec5242;
+    width: 16rem;
+    padding: 1rem;
+    border: #ec5242;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.circle {
+    color: #cc8c85;
+}
