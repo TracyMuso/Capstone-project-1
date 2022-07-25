@@ -9,11 +9,12 @@ body {
 
 nav {
   width: 100%;
-  height: 3.5rem;
+  top: 0;
+  height: 5rem;
   overflow: hidden;
   display: block;
-  position: fixed;
   white-space: no-wrap;
+  background: rgba(211, 211, 211, 0.7);
 }
 
 .bi-list {
@@ -25,103 +26,104 @@ nav {
 }
 
 #intro {
-    display: flex;
+  display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 5rem 1rem 0 0;
-   background: rgba(211, 211, 211, 0.7);
-   padding: 0.5rem 3rem 0.5rem 0.5rem;
+  margin: 0 1rem 0 0;
+  background: rgba(211, 211, 211, 0.7);
+  padding: 0.5rem 3rem 0.5rem 0.5rem;
 }
 
 #title {
-    margin: auto;
-    width: 100%;
-    padding: 0.5rem;
+  margin: auto;
+  width: 100%;
+  padding: 0.5rem;
 }
+
 #sub-title {
-    font-weight: 100;
-    font-size: 20px;
-    margin-bottom: 0.5rem;
+  font-weight: 100;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
 }
 
 #main-title {
-    font-size: 4ch;
-    font-weight: 900;
-    letter-spacing: 0.1em;
-    margin-top: 0.5rem;
+  font-size: 4ch;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin-top: 0.5rem;
 }
 
 #intro-text {
-    width: 90%;
-    border: solid 0.3em rgb(254, 248, 248);
-    text-align: center;
-    margin: auto;
-    padding: 5px;
+  width: 90%;
+  border: solid 0.3em rgb(254, 248, 248);
+  text-align: center;
+  margin: auto;
+  padding: 5px;
 }
 
 #dets {
-    padding: 0.4rem;
-    margin-bottom: 3rem;
+  padding: 0.4rem;
+  margin-bottom: 3rem;
 }
 
 h2 {
-    font-size: 2.5ch;
-    font-weight: 900;
-    letter-spacing: 0.1em;
+  font-size: 2.5ch;
+  font-weight: 900;
+  letter-spacing: 0.1em;
 }
 
 #program-dets {
-    background: #272a31;
-    padding: 0.5rem;
-    text-align: center;
-    width: 100%;
+  background: #272a31;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
 }
 
 h3 {
-    color: #fff;
+  color: #fff;
 }
 
 .p-grid {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 38% 58%;
-    gap: 4%;
-    margin: 1rem auto;
-    background: rgba(125, 132, 147, 0.14);
+  width: 90%;
+  display: grid;
+  grid-template-columns: 38% 58%;
+  gap: 4%;
+  margin: 1rem auto;
+  background: rgba(125, 132, 147, 0.14);
 }
 
 .grid-one {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .topic {
-    font-size: 15px;
-    font-weight: 600;
-    color: #ec5242;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ec5242;
 }
 
 .grid-two {
-    text-align: start;
+  text-align: start;
 }
 
 .p-text {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 0.05em;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 0.05em;
 }
 
 button {
-    background: #ec5242;
-    width: 16rem;
-    padding: 1rem;
-    border: #ec5242;
-    color: #fff;
-    margin-bottom: 2rem;
+  background: #ec5242;
+  width: 16rem;
+  padding: 1rem;
+  border: #ec5242;
+  color: #fff;
+  margin-bottom: 2rem;
 }
 
 .circle {
-    color: #cc8c85;
+  color: #cc8c85;
 }
