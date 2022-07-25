@@ -35,7 +35,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Credit to [Cindy Shin on behance](https://www.behance.net/adagio07) , my web design is inspired by her [project](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
-- Credit to [Junik Studio on behance](https://www.behance.net/JunikStudio or http://www.junikstudio.com) , their cryptocurrency icons were used in the making of this project
+- Credit to [Junik Studio on behance](https://www.behance.net/JunikStudio) , their cryptocurrency icons were used in the making of this project
 
 ## 📝 License
 
