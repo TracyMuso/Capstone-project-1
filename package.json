@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/elfin-git/Capstone-project-1/issues"
   },
-  "homepage": "https://github.com/elfin-git/Capstone-project-1#readme"
+  "homepage": "https://github.com/elfin-git/Capstone-project-1#readme",
+  "devDependencies": {
+    "hint": "^6.2.0"
+  }
 }
