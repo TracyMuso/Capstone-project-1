@@ -259,6 +259,14 @@ h3 {
     position: fixed;
 }
 
+.add-menu {
+    display: none;
+}
+
+.no-display {
+    display: none;
+}
+
 li {
     list-style: none;
     text-decoration: none;

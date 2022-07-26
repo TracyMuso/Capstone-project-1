@@ -1,17 +1,25 @@
 const hamburger = document.querySelector('bi-list');
 const closeMenu = document.querySelector('bi-x');
-const menu = document.querySelector('toggle-menu');
+const menu = document.querySelector('add-menu');
 
-hamburger.addEventListener('click', () => {
-    menu.style.display = 'block';
+const closeItem = function() {
+    menu.classList.toggle('no-display');
+}
+
+const addMenu = function() {
+    menu.classList.toggle('toggle-menu');
+}
+
+hamburger.addEventListener('click', function() {
+   addMenu();
 })
 
-closeMenu.addEventListener('click', () => {
-    menu.hide()
+closeMenu.addEventListener('click', function() {
+    closeItem();
 })
 
 const aLink = document.getElementsByClassName('link');
 
-aLink.addEventListener('click', () => {
-    menu.hide()
+aLink.addEventListener('click', function() {
+    close();
 })
