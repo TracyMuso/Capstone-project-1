@@ -17,8 +17,9 @@ nav {
   background: rgba(211, 211, 211, 0.7);
 } */
 
-#top,
-.supp2 {
+.top,
+.supp2,
+.foot-text {
     display: none;
 }
 
@@ -30,7 +31,7 @@ nav {
   padding: 0.5rem;
 }
 
-#intro {
+.intro {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -39,21 +40,21 @@ nav {
   padding: 5rem 3rem 0.5rem 0.5rem;
 }
 
-#title {
+.title {
   margin: auto;
   width: 90%;
   padding: 0.5rem;
   text-align: center;
 }
 
-#sub-title {
+.sub-title {
   font-weight: 100;
   font-size: 20px;
   margin-bottom: 0.5rem;
   color: #ec5242;
 }
 
-#main-title {
+.main-title {
   font-size: 4ch;
   font-weight: 900;
   letter-spacing: 0.05em;
@@ -67,13 +68,13 @@ nav {
 
 /* h1 {
     font-size: 72px;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(.eee, .333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
    */
 
-#intro-text {
+.intro-text {
   width: 90%;
   border: solid 0.01em rgb(220, 216, 216);
   text-align: center;
@@ -82,20 +83,20 @@ nav {
   background: #fff;
 }
 
-#contact-info {
+.contact-info {
   width: 60%;
   padding: 0.5rem;
   text-align: center;
   margin: auto;
 }
 
-#bc-dets {
+.bc-dets {
   text-align: center;
   width: 100%;
   border-bottom: solid 1px rgb(209, 203, 203);
 }
 
-#bc-cont {
+.bc-cont {
   width: 85%;
   text-align: center;
   margin: 2rem auto;
@@ -103,7 +104,7 @@ nav {
   padding: 0.5rem;
 }
 
-#bc-logo {
+.bc-logo {
   width: 80%;
   height: 4rem;
   background: url(img/blockchain-logo.png);
@@ -112,14 +113,14 @@ nav {
   margin: auto;
 }
 
-#small {
+.small {
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.05em;
   margin: auto;
 }
 
-#logo-text {
+.logo-text {
   width: 70%;
   margin: 1rem auto;
 }
@@ -130,17 +131,17 @@ h4 {
   text-align: center;
 }
 
-#p-logo {
+.p-logo {
   font-size: 14px;
   text-align: center;
 }
 
-#past {
+.past {
   width: 100%;
   text-align: center;
 }
 
-#pic-cont1 {
+.pic-cont1 {
   width: 75%;
   margin: auto;
   background-image: url(img/summit-1.jpg);
@@ -153,7 +154,7 @@ h4 {
   box-shadow: inset -100vw -100vh #ec534280;
 }
 
-#pic-cont2 {
+.pic-cont2 {
   text-align: center;
   width: 75%;
   margin: 1rem auto;
@@ -166,15 +167,15 @@ h4 {
   box-shadow: inset -100vw -100vh #ec534280;
 }
 
-#pic-cont1:hover {
+.pic-cont1:hover {
   box-shadow: none;
 }
 
-#pic-cont2:hover {
+.pic-cont2:hover {
   box-shadow: none;
 }
 
-#pic-cont {
+.pic-cont {
     margin: auto;
     text-align: center;
 }
@@ -195,13 +196,13 @@ h3 {
   padding: 0 0.1rem;
 }
 
-#foot {
+.foot {
   width: 100%;
   background: #272a31;
   text-align: center;
 }
 
-#partner {
+.partner {
   width: 90%;
   display: flex;
   flex-direction: row;
@@ -249,7 +250,7 @@ h3 {
   padding: 0.5rem;
 }
 
-#cr {
+.cr {
   float: right;
   text-align: start;
   font-size: 12px;
@@ -308,14 +309,56 @@ a {
 
 @media only screen and (min-width: 768px) {
     .bi-list,
-    .supp1 {
+    .foot,
+    .supp,
+    .bi-x {
         display: none;
     }
 
-    #top {
+    .add-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 5rem;
+        width: 100%;
+        padding: 6rem auto;
+    }
+
+    .link {
+        font-size: 15px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2rem;
+       padding: 0.5rem;
+       align-items: center;
+       width: 65%;
+    }
+
+    li {
+        color: #272a31;
+        font-size: 20px;
+    }
+
+    a {
+        color: #272a31;
+    }
+
+    .supp2{
+        font-size: 15px;
+        display: block;
+    }
+
+    .top {
+        display: block;
         top: 0;
         width: 100%;
         background-color: #272a31;
+        margin: 0;
+        overflow: hidden;
     }
 
     .top-nav {
@@ -323,13 +366,16 @@ a {
         flex-direction: row;
         list-style-type: none;
         list-style: none;
+        width: 40%;
         gap: 1rem;
+        margin-left: 50%;
         justify-content: space-around;
         align-items: center;
     }
 
     .top-nav-item {
         padding: 0.3rem;
+        color: #fff;
     }
 
     .bi-twitter {
@@ -340,11 +386,64 @@ a {
         color: #fff;
     }
 
-    #pic-cont {
+    .pic-cont {
         display: flex;
         flex-direction: row;
         gap: 2rem;
         justify-content: space-between;
         width: 65%;
+        margin: 4rem auto;
+    }
+
+    .bc-logo {
+        width: 40%;
+        height: 6rem;
+        background: url(img/blockchain-logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+    .small {
+        margin: 2rem auto;
+        padding: 5rem auto;;
+    }
+
+    .bc-cont {
+        margin: 2rem auto;
+        padding: 10rem auto;
+    }
+
+    .past {
+        padding:  6rem auto;
+    }
+
+    .foot-text {
+        display: block;
+        left: 50%;
+        font-size: 12px;
+        width: 40%;
+        padding: 0.3rem;
+        color: #fff;
+        margin: 0.5rem 0.5rem 2% 57%;
+    }
+
+    .foot-logo {
+        width: 10rem;
+        height: 5rem;
+        margin-left: 30%;
+    }
+
+    .cr {
+        display: block;
+        left: 50%;
+        width: 40%;
+        bottom: 1rem;
+        color: #fff;
+    }
+
+    footer {
+        background-color: #272a31;
     }
 }
