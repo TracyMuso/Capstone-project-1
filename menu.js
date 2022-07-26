@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('.bi-list');
 const closeMenu = document.querySelector('.bi-x');
 const menu = document.querySelector('.add-menu');
-const logo = document.querySelector('.nav-logo');
+const navLink = document.querySelectorAll('.link');
 
 const closeItem = function () {
   menu.classList.toggle('no-display');
@@ -9,7 +9,6 @@ const closeItem = function () {
 
 const addMenu = function () {
   menu.classList.toggle('toggle-menu');
-  logo.classList.toggle('no-display');
 };
 
 hamburger.addEventListener('click', () => {
@@ -18,4 +17,10 @@ hamburger.addEventListener('click', () => {
 
 closeMenu.addEventListener('click', () => {
   closeItem();
+});
+
+navLink.forEach(link => {
+  navLink.addEventListener('click', () => {
+    closeItem();
+  });
 });

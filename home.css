@@ -72,11 +72,13 @@ nav {
   text-align: center;
   margin: auto;
   padding: 5px;
+  color: #65686d;
 }
 
 .dets {
   padding: 0.4rem;
   margin-bottom: 3rem;
+  color: #65686d;
 }
 
 h2 {
@@ -85,7 +87,7 @@ h2 {
   letter-spacing: 0.1em;
 }
 
-.program-dets {
+#program-dets {
   background: #272a31;
   padding: 0.5rem;
   text-align: center;
@@ -166,6 +168,10 @@ button {
   z-index: 50;
   background-color: #cc8c85;
   position: fixed;
+}
+
+.no-display {
+  display: none;
 }
 
 li {
@@ -291,7 +297,7 @@ a {
     margin-left: 15%;
   }
 
-  .program-dets {
+  #program-dets {
     padding-bottom: 3rem;
   }
 
