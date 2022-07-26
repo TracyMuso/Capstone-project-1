@@ -8,13 +8,12 @@ body {
   padding: 0;
 }
 
-.top,
 .nav-logo,
 .supp2,
 .foot-text,
 .top,
 .add-menu {
-    display: none;
+  display: none;
 }
 
 .bi-list {
@@ -169,8 +168,8 @@ h4 {
 }
 
 .pic-cont {
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
 .cont {
@@ -252,198 +251,196 @@ h3 {
 }
 
 .toggle-menu {
-    display: block;
-    text-align: center;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 50;
-    background-color: #cc8c85;
-    position: fixed;
-
+  display: block;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 50;
+  background-color: #cc8c85;
+  position: fixed;
 }
 
 .no-display {
-    display: none;
+  display: none;
 }
 
 li {
-    list-style: none;
-    text-decoration: none;
-    font-size: 20px;
-    color: #fff;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .menu {
-    display: flex;
-    width: 70%;
-    flex-direction: column;
-    gap: 2rem;
-    margin: 6rem 3rem 15% 15%;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 6rem 3rem 15% 15%;
 }
 
 .bi-x {
-    top: 0;
-    right: 0;
-    font-size: 40px;
-    color: #272a31;
+  top: 0;
+  right: 0;
+  font-size: 40px;
+  color: #272a31;
   position: fixed;
   padding: 0.5rem;
 }
 
 @media only screen and (min-width: 768px) {
-    .bi-list,
-    .toggle-menu,
-    .foot,
-    .supp,
-    .bi-x {
-        display: none;
-    }
+  .bi-list,
+  .toggle-menu,
+  .foot,
+  .supp,
+  .bi-x {
+    display: none;
+  }
 
-    .add-menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 6.5rem;
-        width: 100%;
-        padding: 6rem auto;
-    }
+  .add-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6.5rem;
+    width: 100%;
+    padding: 6rem 5rem;
+  }
 
-    .link {
-        font-size: 12px;
-    }
+  .link {
+    font-size: 12px;
+  }
 
-    .menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 2rem;
-       padding: 0.5rem;
-       align-items: center;
-       width: 60%;
-    }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    align-items: center;
+    width: 60%;
+  }
 
-    .nav-logo {
-      display: block;
-      width: 10rem;
-      height: 5rem;
-      margin-bottom: -6rem;
-      margin-left: 1rem;
-    }
+  .nav-logo {
+    display: block;
+    width: 10rem;
+    height: 5rem;
+    margin-bottom: -6rem;
+    margin-left: 1rem;
+  }
 
-    li {
-        color: #272a31;
-        font-size: 20px;
-    }
+  li {
+    color: #272a31;
+    font-size: 20px;
+  }
 
-    a {
-        color: #272a31;
-    }
+  a {
+    color: #272a31;
+  }
 
-    .supp2{
-        font-size: 15px;
-        display: block;
-    }
+  .supp2 {
+    font-size: 15px;
+    display: block;
+  }
 
-    .top {
-        display: block;
-        top: 0;
-        width: 100%;
-        background-color: #272a31;
-        margin: 0;
-        overflow: hidden;
-    }
+  .top {
+    display: block;
+    top: 0;
+    width: 100%;
+    background-color: #272a31;
+    margin: 0;
+    overflow: hidden;
+  }
 
-    .top-nav {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        list-style: none;
-        width: 40%;
-        gap: 1rem;
-        margin-left: 50%;
-        justify-content: space-around;
-        align-items: center;
-    }
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 40%;
+    gap: 1rem;
+    margin-left: 50%;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-    .top-nav-item {
-        padding: 0.3rem;
-        color: #fff;
-        font-size: 15px;
-    }
+  .top-nav-item {
+    padding: 0.3rem;
+    color: #fff;
+    font-size: 15px;
+  }
 
-    .bi-twitter {
-        color: #fff;
-    }
+  .bi-twitter {
+    color: #fff;
+  }
 
-    .bi-facebook {
-        color: #fff;
-    }
+  .bi-facebook {
+    color: #fff;
+  }
 
-    .pic-cont {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        justify-content: space-between;
-        width: 65%;
-        margin: 4rem auto;
-    }
+  .pic-cont {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    width: 65%;
+    margin: 4rem auto;
+  }
 
-    .bc-logo {
-        width: 40%;
-        height: 6rem;
-        background: url(img/blockchain-logo.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-left: 40%;
-        margin-right: 40%;
-    }
+  .bc-logo {
+    width: 40%;
+    height: 6rem;
+    background: url(img/blockchain-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
 
-    .small {
-        margin: 2rem auto;
-        padding: 5rem auto;;
-    }
+  .small {
+    margin: 2rem auto;
+    padding: 5rem 0.5rem;
+  }
 
-    .bc-cont {
-        margin: 2rem auto;
-        padding: 10rem auto;
-    }
+  .bc-cont {
+    margin: 2rem auto;
+    padding: 10rem 0.5rem;
+  }
 
-    .past {
-        padding:  6rem auto;
-    }
+  .past {
+    padding: 6rem 0.5rem;
+  }
 
-    .foot-text {
-        display: block;
-        left: 50%;
-        font-size: 12px;
-        width: 40%;
-        padding: 0.3rem;
-        color: #fff;
-        margin: 0.5rem 0.5rem 2% 57%;
-    }
+  .foot-text {
+    display: block;
+    left: 50%;
+    font-size: 12px;
+    width: 40%;
+    padding: 0.3rem;
+    color: #fff;
+    margin: 0.5rem 0.5rem 2% 57%;
+  }
 
-    .foot-logo {
-        width: 10rem;
-        height: 5rem;
-        margin-left: 30%;
-    }
+  .foot-logo {
+    width: 10rem;
+    height: 5rem;
+    margin-left: 30%;
+  }
 
-    .cr {
-        display: block;
-        left: 50%;
-        width: 40%;
-        bottom: 1rem;
-        color: #fff;
-    }
+  .cr {
+    display: block;
+    left: 50%;
+    width: 40%;
+    bottom: 1rem;
+    color: #fff;
+  }
 
-    footer {
-        background-color: #272a31;
-    }
+  footer {
+    background-color: #272a31;
+  }
 }

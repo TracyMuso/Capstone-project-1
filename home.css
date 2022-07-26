@@ -8,7 +8,6 @@ body {
   padding: 0;
 }
 
-.top,
 .p-link,
 .foot,
 footer,
@@ -17,7 +16,7 @@ footer,
 .foot-text,
 .top,
 .add-menu {
-    display: none;
+  display: none;
 }
 
 nav {
@@ -112,7 +111,6 @@ h3 {
   align-items: center;
 }
 
-
 .topic {
   font-size: 15px;
   font-weight: 600;
@@ -168,7 +166,7 @@ li {
   list-style: none;
   text-decoration: none;
   font-size: 20px;
-    color: #fff;
+  color: #fff;
 }
 
 a {
@@ -189,8 +187,8 @@ a {
   right: 0;
   font-size: 40px;
   color: #272a31;
- position: fixed;
- padding: 0.5rem;
+  position: fixed;
+  padding: 0.5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -199,7 +197,7 @@ a {
   .toggle-menu,
   .bi-x,
   button {
-      display: none;
+    display: none;
   }
 
   .top {
@@ -209,36 +207,35 @@ a {
     background-color: #272a31;
     margin: 0;
     overflow: hidden;
-}
+  }
 
-.top-nav {
+  .top-nav {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    list-style: none;
     width: 40%;
     gap: 1rem;
     margin-left: 50%;
     justify-content: space-around;
     align-items: center;
-}
+  }
 
-.top-nav-item {
+  .top-nav-item {
     padding: 0.3rem;
     color: #fff;
     font-size: 15px;
-}
+  }
 
-.bi-twitter {
+  .bi-twitter {
     color: #fff;
-}
+  }
 
-.bi-facebook {
+  .bi-facebook {
     color: #fff;
-}
+  }
 
   .link {
-      font-size: 12px;
+    font-size: 12px;
   }
 
   .nav-logo {
@@ -250,22 +247,22 @@ a {
   }
 
   .menu {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      margin-top: 2rem;
-     padding: 0.5rem;
-     align-items: center;
-     width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    align-items: center;
+    width: 65%;
   }
 
   li {
-      color: #272a31;
-      font-size: 20px;
+    color: #272a31;
+    font-size: 20px;
   }
 
   a {
-      color: #272a31;
+    color: #272a31;
   }
 
   .title {
@@ -313,8 +310,8 @@ a {
     margin-bottom: 0.8rem;
     margin-top: 1rem;
     font-size: 15px;
-  font-weight: 600;
-  color: #ec5242;
+    font-weight: 600;
+    color: #ec5242;
   }
 
   .grid-two {
@@ -338,12 +335,12 @@ a {
     margin: 1rem auto;
   }
 
-  .foot {
+  /* .foot {
     width: 100%;
     background: #272a31;
     text-align: center;
-  }
-  
+  } */
+
   .partner {
     width: 90%;
     display: flex;
@@ -356,30 +353,30 @@ a {
     align-items: center;
     margin: auto;
   }
-  
+
   .logo-container {
     width: 30%;
   }
-  
+
   .coinbase {
     width: 5rem;
     height: 2rem;
     padding: 0.5rem;
   }
-  
+
   .binance {
     width: 6rem;
     height: 2rem;
     padding: 0.5rem;
   }
-  
+
   .kraken {
     width: 7rem;
     height: 3rem;
     padding: 0.5rem;
     margin-top: -0.8rem;
   }
-  
+
   .luno {
     width: 6rem;
     height: 2rem;
@@ -400,23 +397,23 @@ a {
     padding: 0.3rem;
     color: #272a31;
     margin: 0.5rem 0.5rem 2% 57%;
-}
+  }
 
-.foot-logo {
+  .foot-logo {
     width: 10rem;
     height: 5rem;
     margin-left: 30%;
     margin-top: 1rem;
-}
+  }
 
-.cr {
+  .cr {
     display: block;
     margin-left: 57%;
     margin-top: -4rem;
     width: 40%;
     bottom: 1rem;
     color: #272a31;
-}
+  }
 
   footer {
     display: block;
