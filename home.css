@@ -55,6 +55,7 @@ nav {
   font-weight: 100;
   font-size: 20px;
   margin-bottom: 0.5rem;
+  color: #ec5242;
 }
 
 .main-title {
@@ -62,6 +63,7 @@ nav {
   font-weight: 900;
   letter-spacing: 0.1em;
   margin-top: 0.5rem;
+  color: #ec5242;
 }
 
 .intro-text {
@@ -132,6 +134,10 @@ h3 {
 
 .grid-two {
   text-align: start;
+}
+
+.foot h2 {
+  color: #fff;
 }
 
 .p-text {
@@ -218,6 +224,11 @@ a {
     margin-left: 50%;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .add-menu {
+    display: block;
+    padding-bottom: 1.5rem;
   }
 
   .top-nav-item {
@@ -335,12 +346,6 @@ a {
     margin: 1rem auto;
   }
 
-  /* .foot {
-    width: 100%;
-    background: #272a31;
-    text-align: center;
-  } */
-
   .partner {
     width: 90%;
     display: flex;
@@ -387,6 +392,8 @@ a {
     display: block;
     padding-top: 1.3rem;
     padding-bottom: 1rem;
+    background: #272a31;
+    text-align: center;
   }
 
   .foot-text {
