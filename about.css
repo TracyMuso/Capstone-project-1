@@ -31,7 +31,7 @@ nav {
   width: 100%;
   margin: 0 1rem 0 0;
   background-color: rgba(211, 211, 211, 0.7);
-  padding: 0.5rem 3rem 0.5rem 0.5rem;
+  padding: 5rem 3rem 0.5rem 0.5rem;
 }
 
 #title {
@@ -248,29 +248,35 @@ h3 {
 }
 
 .toggle-menu {
-    display: block;
+    display: none;
     text-align: center;
     top: 0;
     bottom: 0;
     width: 100%;
     height: 100vh;
     z-index: 50;
+    background-color: #cc8c85;
+    position: fixed;
 }
 
 li {
     list-style: none;
     text-decoration: none;
+    font-size: 20px;
+    color: #fff;
 }
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 .menu {
     display: flex;
+    width: 70%;
     flex-direction: column;
     gap: 2rem;
-    margin: 3rem auto;
+    margin: 6rem 3rem auto auto;
 }
 
 .bi-x {
