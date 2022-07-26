@@ -196,6 +196,7 @@ a {
 @media only screen and (min-width: 768px) {
   .bi-list,
   nav,
+  .toggle-menu,
   .bi-x,
   button {
       display: none;
@@ -238,6 +239,14 @@ a {
 
   .link {
       font-size: 12px;
+  }
+
+  .nav-logo {
+    display: block;
+    width: 10rem;
+    height: 5rem;
+    margin-bottom: -6rem;
+    margin-left: 1rem;
   }
 
   .menu {

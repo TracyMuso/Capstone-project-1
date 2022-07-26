@@ -19,15 +19,3 @@ hamburger.addEventListener('click', () => {
 closeMenu.addEventListener('click', function() {
     closeItem();
 });
-
-// const aLink = document.getElementsByClassName('.link');
-
-// aLink.addEventListener('click', function() {
-//     closeItem();
-// })
-
-// menu.addEventListener('click', (e) => {
-//     if (e = closeMenu) {
-//         closeItem()
-//     }
-// })

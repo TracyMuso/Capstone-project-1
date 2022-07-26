@@ -7,17 +7,9 @@ body {
   margin: 0;
   padding: 0;
 }
-/* 
-nav {
-  width: 100%;
-  top: 0;
-  height: 5rem;
-  overflow: hidden;
-  display: block;
-  background: rgba(211, 211, 211, 0.7);
-} */
 
 .top,
+.nav-logo,
 .supp2,
 .foot-text,
 .top,
@@ -107,7 +99,7 @@ nav {
 }
 
 .bc-logo {
-  width: 80%;
+  width: 40%;
   height: 4rem;
   background: url(img/blockchain-logo.png);
   background-size: contain;
@@ -261,7 +253,7 @@ h3 {
 }
 
 .toggle-menu {
-    display: none;
+    display: block;
     text-align: center;
     top: 0;
     bottom: 0;
@@ -270,10 +262,7 @@ h3 {
     z-index: 50;
     background-color: #cc8c85;
     position: fixed;
-}
 
-.add-menu {
-    display: none;
 }
 
 .no-display {
@@ -297,7 +286,7 @@ a {
     width: 70%;
     flex-direction: column;
     gap: 2rem;
-    margin: 6rem 3rem auto auto;
+    margin: 6rem 3rem 15% 15%;
 }
 
 .bi-x {
@@ -311,6 +300,7 @@ a {
 
 @media only screen and (min-width: 768px) {
     .bi-list,
+    .toggle-menu,
     .foot,
     .supp,
     .bi-x {
@@ -321,13 +311,13 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        height: 5rem;
+        height: 6.5rem;
         width: 100%;
         padding: 6rem auto;
     }
 
     .link {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .menu {
@@ -338,6 +328,14 @@ a {
        padding: 0.5rem;
        align-items: center;
        width: 60%;
+    }
+
+    .nav-logo {
+      display: block;
+      width: 10rem;
+      height: 5rem;
+      margin-bottom: -6rem;
+      margin-left: 1rem;
     }
 
     li {
