@@ -149,7 +149,7 @@ h3 {
   color: #fff;
 }
 
-button {
+.button {
   background: #ec5242;
   width: 16rem;
   padding: 1rem;
@@ -192,6 +192,67 @@ a {
   gap: 2rem;
   margin: 6rem 3rem auto auto;
   width: 70%;
+}
+
+.sub-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+  gap: 0.5rem;
+  margin: auto;
+}
+
+.hold {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.1rem;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+.btn {
+  width: 100%;
+  border: solid 1px #65686d;
+  background-color: #fff;
+  padding: 0.8rem;
+  border-radius: 0.5em;
+}
+
+.bi-arrow-down {
+  color: #ec5242;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 99%;
+  gap: 0.8rem;
+}
+
+.spk-img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.spk-text {
+  text-align: start;
+}
+
+.name {
+  color: #ec5242;
+}
+
+.position {
+  font-size: 12px;
+}
+
+.role {
+  font-size: 12px;
 }
 
 .bi-x {
@@ -301,6 +362,10 @@ a {
     padding-bottom: 3rem;
   }
 
+  .btn {
+    display: none;
+  }
+
   .grid {
     display: flex;
     flex-direction: row;
@@ -363,6 +428,64 @@ a {
     padding: 0.5rem;
     align-items: center;
     margin: auto;
+  }
+
+  #fsp {
+    width: 100%;
+    padding: 3rem 0.5rem;
+  }
+
+  .feat {
+    text-align: center;
+    color: #272a31;
+  }
+
+  .sub-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    gap: 0.5rem;
+    margin: auto;
+  }
+
+  .hold {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.1rem;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
+
+  .speaker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    gap: 0.8rem;
+  }
+
+  .spk-img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .spk-text {
+    text-align: start;
+  }
+
+  .name {
+    color: #ec5242;
+  }
+
+  .position {
+    font-size: 12px;
+  }
+
+  .role {
+    font-size: 12px;
   }
 
   .logo-container {

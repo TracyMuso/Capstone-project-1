@@ -21,6 +21,6 @@ closeMenu.addEventListener('click', () => {
 
 navLink.forEach(link => {
   navLink.addEventListener('click', () => {
-    closeItem();
+    alert('I like u')
   });
 });
