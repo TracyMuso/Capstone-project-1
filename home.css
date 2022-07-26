@@ -13,6 +13,7 @@ body {
 .foot,
 footer,
 .supp2,
+.nav-logo,
 .foot-text,
 .top,
 .add-menu {
@@ -160,6 +161,7 @@ button {
   height: 100vh;
   z-index: 50;
   background-color: #cc8c85;
+  position: fixed;
 }
 
 li {

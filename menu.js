@@ -1,6 +1,7 @@
-const hamburger = document.querySelector('bi-list');
-const closeMenu = document.querySelector('bi-x');
-const menu = document.querySelector('add-menu');
+const hamburger = document.querySelector('.bi-list');
+const closeMenu = document.querySelector('.bi-x');
+const menu = document.querySelector('.add-menu');
+const logo = document.querySelector('.nav-logo');
 
 const closeItem = function() {
     menu.classList.toggle('no-display');
@@ -8,18 +9,25 @@ const closeItem = function() {
 
 const addMenu = function() {
     menu.classList.toggle('toggle-menu');
+    logo.classList.toggle('no-display');
 }
 
-hamburger.addEventListener('click', function() {
-   addMenu();
-})
+hamburger.addEventListener('click', () => {
+  addMenu();
+});
 
 closeMenu.addEventListener('click', function() {
     closeItem();
-})
+});
 
-const aLink = document.getElementsByClassName('link');
+// const aLink = document.getElementsByClassName('.link');
 
-aLink.addEventListener('click', function() {
-    closeItem();
-})
+// aLink.addEventListener('click', function() {
+//     closeItem();
+// })
+
+// menu.addEventListener('click', (e) => {
+//     if (e = closeMenu) {
+//         closeItem()
+//     }
+// })
