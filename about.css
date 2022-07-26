@@ -17,6 +17,11 @@ nav {
   background: rgba(211, 211, 211, 0.7);
 } */
 
+#top,
+.supp2 {
+    display: none;
+}
+
 .bi-list {
   font-size: 50px;
   top: 0;
@@ -169,6 +174,11 @@ h4 {
   box-shadow: none;
 }
 
+#pic-cont {
+    margin: auto;
+    text-align: center;
+}
+
 .cont {
   text-align: center;
   margin: 2rem 0 auto auto;
@@ -294,4 +304,47 @@ a {
     color: #272a31;
   position: fixed;
   padding: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .bi-list,
+    .supp1 {
+        display: none;
+    }
+
+    #top {
+        top: 0;
+        width: 100%;
+        background-color: #272a31;
+    }
+
+    .top-nav {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        list-style: none;
+        gap: 1rem;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .top-nav-item {
+        padding: 0.3rem;
+    }
+
+    .bi-twitter {
+        color: #fff;
+    }
+
+    .bi-facebook {
+        color: #fff;
+    }
+
+    #pic-cont {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-between;
+        width: 65%;
+    }
 }
