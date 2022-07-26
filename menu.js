@@ -21,5 +21,5 @@ closeMenu.addEventListener('click', function() {
 const aLink = document.getElementsByClassName('link');
 
 aLink.addEventListener('click', function() {
-    close();
+    closeItem();
 })
