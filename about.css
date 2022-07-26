@@ -19,7 +19,9 @@ nav {
 
 .top,
 .supp2,
-.foot-text {
+.foot-text,
+.top,
+.add-menu {
     display: none;
 }
 
@@ -335,7 +337,7 @@ a {
         margin-top: 2rem;
        padding: 0.5rem;
        align-items: center;
-       width: 65%;
+       width: 60%;
     }
 
     li {
@@ -376,6 +378,7 @@ a {
     .top-nav-item {
         padding: 0.3rem;
         color: #fff;
+        font-size: 15px;
     }
 
     .bi-twitter {
