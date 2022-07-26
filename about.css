@@ -127,17 +127,23 @@ h4 {
 #pic-cont1 {
     width: 75%;
     margin: auto;
-    background-image: url();
+    background-image: url(img/summit-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 8rem;
     text-align: center;
-    background: rgba(209, 51, 33, 0.57);
+    
 }
 
 #pic-cont2 {
     text-align: center;
     width: 75%;
     margin: 1rem auto;
-    background-image: url();
+    background-image: url(img/summit-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 8rem;
     background: rgba(209, 51, 33, 0.57);
 }
@@ -174,6 +180,10 @@ h3 {
     padding: 0.5rem;
     align-items: center;
     margin: auto;
+}
+
+.logo-container {
+    width: 30%;
 }
 
 .coinbase {
