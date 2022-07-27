@@ -62,9 +62,6 @@ body {
   color: #ec5242;
   line-height: 1.3em;
   background: -webkit-linear-gradient(rgb(165, 74, 74), rgb(206, 40, 40));
-  -webkit-background-clip: text;
-  background-clip: inherit;
-  -webkit-text-fill-color: transparent;
 }
 
 .intro-text {
