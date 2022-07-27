@@ -3,6 +3,9 @@ This is my first capstone project in the microverse curriculum. It tests all the
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
+![](https://github.com/elfin-git/Capstone-project-1/blob/feature/img/screenshot-mobile.png).
+https://github.com/elfin-git/Capstone-project-1/blob/feature/img/screenshot-dsk.png
+
 ## Built With
 
 - HTML & CSS
