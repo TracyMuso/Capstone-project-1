@@ -66,7 +66,7 @@ window.addEventListener('load', () => {
             </div>
        </div>
        <span id="break"></span>
-       <div class="hold">
+       <div class="hold activ">
             <div class="speaker">
                <img class="spk-img" src="${spkArr[2].img}">
                <div class="spk-text">
@@ -85,7 +85,7 @@ window.addEventListener('load', () => {
             </div>
        </div>
 
-       <div class="hold">
+       <div class="hold activ">
             <div class="speaker">
                <img class="spk-img" src="${spkArr[4].img}">
                <div class="spk-text">
@@ -103,27 +103,6 @@ window.addEventListener('load', () => {
                </div>
             </div>
        </div>
-       <button class="btn" onclick="">More <i class="bi bi-arrow-down"></i></button>
    </div>
     `;
 });
-
-const spkOne = document.querySelectorAll('.hold')[1];
-const spkTwo = document.querySelectorAll('.hold')[2];
-const spkThree = document.querySelectorAll('.hold')[3];
-const moreBtn = document.querySelector('.btn');
-const lineBreak = document.querySelector('#break');
-
-function skip() {
-  if (lineBreak.style.display === 'none') {
-    lineBreak.style.display === 'inline';
-    moreBtn.innerHTML = 'More';
-    spkTwo.style.display = 'none';
-    spkThree.style.display = 'none';
-  }else {
-    lineBreak.style.display === 'none';
-    moreBtn.innerHTML = 'See less';
-    spkTwo.style.display = 'inline';
-    spkThree.style.display = 'inline';
-  }
-}

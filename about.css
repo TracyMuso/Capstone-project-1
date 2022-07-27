@@ -260,6 +260,18 @@ h3 {
   z-index: 50;
   background-color: #cc8c85;
   position: fixed;
+  animation: slideIn ease-out 0.4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .no-display {
@@ -283,7 +295,7 @@ a {
   width: 70%;
   flex-direction: column;
   gap: 2rem;
-  margin: 6rem 3rem 15% 15%;
+  margin: 6rem 3rem 15% 10%;
 }
 
 .bi-x {
@@ -304,13 +316,18 @@ a {
     display: none;
   }
 
+  .intro {
+    padding-top: 1rem;
+  }
+
   .add-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 6.5rem;
+    height: 5rem;
     width: 100%;
-    padding: 6rem 5rem;
+    padding-top: 1rem;
+    margin-left: 20%;
   }
 
   .link {
@@ -326,6 +343,21 @@ a {
     align-items: center;
     width: 60%;
   }
+
+  .menu :nth-child(6) {
+    font-weight: 600;
+    border: #ec5242 solid 3px;
+    padding:  0 0.3rem;
+  }
+
+  .bcw {
+    color: #ec5242;
+  }
+
+  .act {
+    color: #ec5242;
+  }
+
 
   .nav-logo {
     display: block;
@@ -372,7 +404,7 @@ a {
   .top-nav-item {
     padding: 0.3rem;
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .bi-twitter {
@@ -409,11 +441,12 @@ a {
 
   .bc-cont {
     margin: 2rem auto;
-    padding: 10rem 0.5rem;
+    padding: 1rem 0.5rem;
+    width: 60%;
   }
 
   .past {
-    padding: 6rem 0.5rem;
+    padding: 2rem 0.5rem;
   }
 
   .foot-text {

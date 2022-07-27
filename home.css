@@ -9,8 +9,6 @@ body {
 }
 
 .p-link,
-.foot,
-footer,
 .supp2,
 .nav-logo,
 .foot-text,
@@ -142,6 +140,19 @@ h3 {
   color: #fff;
 }
 
+.partner {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 7rem;
+  padding: 0.5rem;
+  align-items: center;
+  margin: auto;
+}
+
 .p-text {
   font-size: 12px;
   font-weight: 400;
@@ -168,6 +179,18 @@ h3 {
   z-index: 50;
   background-color: #cc8c85;
   position: fixed;
+  animation: slideIn ease-out 0.4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .no-display {
@@ -190,7 +213,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin: 6rem 3rem auto auto;
+  margin: 6rem 3rem 15% 10%;
   width: 70%;
 }
 
@@ -244,15 +267,89 @@ a {
 }
 
 .name {
-  color: #ec5242;
+  color: #272a31;
 }
 
 .position {
   font-size: 12px;
+  color: #ec5242;
 }
 
 .role {
   font-size: 12px;
+}
+
+.logo-container {
+  width: 30%;
+}
+
+.coinbase {
+  width: 5rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.binance {
+  width: 6rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.kraken {
+  width: 7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-top: -0.8rem;
+}
+
+.luno {
+  width: 6rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.foot {
+  display: block;
+  padding-top: 1.3rem;
+  padding-bottom: 1rem;
+  background: #272a31;
+  text-align: center;
+}
+
+.feat {
+  text-align: center;
+  color: #272a31;
+}
+
+.foot-text {
+  display: block;
+  left: 50%;
+  font-size: 12px;
+  width: 40%;
+  padding: 0.3rem;
+  color: #272a31;
+  margin: 0.5rem 0.5rem 2% 57%;
+}
+
+.foot-logo {
+  width: 10rem;
+  height: 5rem;
+  margin-left: 8%;
+  margin-top: 1rem;
+}
+
+.cr {
+  display: block;
+  margin-left: 57%;
+  margin-top: -4rem;
+  width: 40%;
+  bottom: 1rem;
+  color: #272a31;
+}
+
+footer {
+  display: block;
+  background-color: #fff;
 }
 
 .bi-x {
@@ -332,6 +429,20 @@ a {
     padding: 0.5rem;
     align-items: center;
     width: 65%;
+  }
+
+  .menu :nth-child(6) {
+    font-weight: 600;
+    border: #ec5242 solid 3px;
+    padding:  0 0.3rem;
+  }
+
+  .bcw {
+    color: #ec5242;
+  }
+
+  .act {
+    color: #ec5242;
   }
 
   li {
@@ -477,11 +588,12 @@ a {
   }
 
   .name {
-    color: #ec5242;
+    color: #272a31;
   }
 
   .position {
     font-size: 12px;
+    color: #ec5242;
   }
 
   .role {
