@@ -1,10 +1,9 @@
-# Capstone-project-1
-This is my first capstone project in the microverse curriculum. It tests all the knowledge I have gained in HTML, CSS and Javascript. I am a blockchain enthusiast so I made the theme of the website an online blockchain conference. Below I have shown a screenshot of what the home-page tooks like
+## Capstone-project-1
+This is my first capstone project in the microverse curriculum. It tests all the knowledge I have gained in HTML, CSS and Javascript. I am a blockchain enthusiast so I made the theme of the website an online blockchain conference. Below I have shown a screenshot of what the home-page tooks like.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
-![](https://github.com/elfin-git/Capstone-project-1/blob/feature/img/screenshot-mobile.png).
-https://github.com/elfin-git/Capstone-project-1/blob/feature/img/screenshot-dsk.png
+<img src="https://github.com/elfin-git/Capstone-project-1/blob/feature/img/screenshot-mobile.png" width="200" height="400"/> <img src="https://github.com/elfin-git/Capstone-project-1/blob/feature/img/screenshot-dsk.png" width="500" height="400"/>
 
 ## Built With
 
@@ -16,7 +15,7 @@ https://github.com/elfin-git/Capstone-project-1/blob/feature/img/screenshot-dsk.
 
 https://elfin-git.github.io/Capstone-project-1/
 
-## To get a local copy up and running follow these simple example steps.
+### To get a local copy up and running follow these simple example steps.
 
 # Prerequisites
 
@@ -28,7 +27,7 @@ https://elfin-git.github.io/Capstone-project-1/
 
 # Install
 - Set up Github Actions
-- Set up linter > Lighthouse , Webhint ,Stylelint , -Added Eslint
+- Set up linter > Lighthouse , Webhint ,Stylelint , Eslint.
 
 
 ## Author
