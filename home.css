@@ -391,8 +391,13 @@ footer {
   }
 
   .add-menu {
-    display: block;
-    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+    padding-top: 1rem;
+    margin-left: 20%;
   }
 
   .top-nav-item {
