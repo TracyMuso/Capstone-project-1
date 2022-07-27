@@ -7,9 +7,10 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  width: 100%;
+  max-width: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .p-link,
@@ -19,15 +20,6 @@ body {
 .top,
 .add-menu {
   display: none;
-}
-
-nav {
-  width: 100%;
-  top: 0;
-  height: 5rem;
-  overflow: hidden;
-  display: block;
-  background: rgba(211, 211, 211, 0.7);
 }
 
 .bi-list {
@@ -46,7 +38,7 @@ nav {
   flex-direction: column;
   width: 100%;
   margin: 0 1rem 0 0;
-  padding: 0.5rem 3rem 0.5rem 0.5rem;
+  padding: 5rem 3rem 0.5rem 0.5rem;
   background-image: url(img/blockchain-wp.jpg);
 }
 
