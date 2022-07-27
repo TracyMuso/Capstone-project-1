@@ -327,7 +327,10 @@ a {
   width: 40%;
   padding: 0.3rem;
   color: #272a31;
-  margin: 0.5rem 0.5rem 2% 57%;
+  margin-left: 50%;
+  margin-right: 1%;
+  margin-bottom: 0;
+  overflow: none;
 }
 
 .foot-logo {
@@ -342,13 +345,14 @@ a {
   margin-left: 57%;
   margin-top: -4rem;
   width: 40%;
-  bottom: 1rem;
+  bottom: 0.5rem;
   color: #272a31;
 }
 
 footer {
   display: block;
   background-color: #fff;
+  padding-bottom: 1rem;
 }
 
 .bi-x {
