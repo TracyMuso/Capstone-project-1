@@ -4,7 +4,8 @@ const menu = document.querySelector('.add-menu');
 const navLinks = document.querySelectorAll('.link');
 
 const closeItem = function () {
-  menu.classList.toggle('no-display');
+  menu.classList.remove('toggle-menu');
+  menu.classList.add('no-display');
 };
 
 const addMenu = function () {
