@@ -49,7 +49,7 @@ window.addEventListener('load', () => {
     <div class="sub-cont">
        <div class="hold">
             <div class="speaker">
-               <img class="spk-img" src="${spkArr[0].img}">
+               <img class="spk-img" src="${spkArr[0].img}" alt="speaker one">
                <div class="spk-text">
                   <h3 class="name">${spkArr[0].name}</h3>
                   <i class="position">${spkArr[0].position}</i>
@@ -57,7 +57,7 @@ window.addEventListener('load', () => {
                </div>
             </div>
             <div class="speaker">
-               <img class="spk-img" src="${spkArr[1].img}">
+               <img class="spk-img" src="${spkArr[1].img}" alt="speaker two">
                <div class="spk-text">
                   <h3 class="name">${spkArr[1].name}</h3>
                   <i class="position">${spkArr[1].position}</i>
@@ -68,7 +68,7 @@ window.addEventListener('load', () => {
        <span id="break"></span>
        <div class="hold activ">
             <div class="speaker">
-               <img class="spk-img" src="${spkArr[2].img}">
+               <img class="spk-img" src="${spkArr[2].img}" alt="speaker three">
                <div class="spk-text">
                   <h3 class="name">${spkArr[2].name}</h3>
                   <i class="position">${spkArr[2].position}</i>
@@ -76,7 +76,7 @@ window.addEventListener('load', () => {
                </div>
             </div>
             <div class="speaker">
-               <img class="spk-img" src="${spkArr[3].img}">
+               <img class="spk-img" src="${spkArr[3].img}" alt="speaker four">
                <div class="spk-text">
                   <h3 class="name">${spkArr[3].name}</h3>
                   <i class="position">${spkArr[3].position}</i>
@@ -87,7 +87,7 @@ window.addEventListener('load', () => {
 
        <div class="hold activ">
             <div class="speaker">
-               <img class="spk-img" src="${spkArr[4].img}">
+               <img class="spk-img" src="${spkArr[4].img}" alt="speaker five">
                <div class="spk-text">
                   <h3 class="name">${spkArr[4].name}</h3>
                   <i class="position">${spkArr[4].position}</i>
@@ -95,7 +95,7 @@ window.addEventListener('load', () => {
                </div>
             </div>
             <div class="speaker">
-               <img class="spk-img" src="${spkArr[5].img}">
+               <img class="spk-img" src="${spkArr[5].img}" alt="speaker six">
                <div class="spk-text">
                   <h3 class="name">${spkArr[5].name}</h3>
                   <i class="position">${spkArr[5].position}</i>
