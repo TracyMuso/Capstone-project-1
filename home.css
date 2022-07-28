@@ -341,7 +341,7 @@ a {
 
 .cr {
   display: block;
-  margin-left: 57%;
+  margin-left: 51%;
   margin-top: -4rem;
   width: 40%;
   bottom: 0.5rem;
@@ -651,7 +651,7 @@ footer {
     width: 40%;
     padding: 0.3rem;
     color: #272a31;
-    margin: 0.5rem 0.5rem 2% 57%;
+    margin: 0.5rem 0.5rem 2% 56%;
   }
 
   .foot-logo {
@@ -662,12 +662,12 @@ footer {
   }
 
   .cr {
-    display: block;
-    margin-left: 57%;
     margin-top: -4rem;
+    margin-left: 56%;
     width: 40%;
     bottom: 1rem;
     color: #272a31;
+    padding: 0.4rem;
   }
 
   footer {
