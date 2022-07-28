@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Poppins', sans-serif;
-  width: 100%;
+  max-width: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .p-link,
-.foot,
-footer,
 .supp2,
 .nav-logo,
 .foot-text,
@@ -19,21 +22,15 @@ footer,
   display: none;
 }
 
-nav {
-  width: 100%;
-  top: 0;
-  height: 5rem;
-  overflow: hidden;
-  display: block;
-  background: rgba(211, 211, 211, 0.7);
-}
-
 .bi-list {
   font-size: 50px;
-  top: 0;
-  color: #272a31;
+  top: 0.5rem;
+  color: #fff;
   position: fixed;
-  padding: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: rgba(101, 104, 109, 0.5);
+  border-radius: 15%;
+  left: 2%;
 }
 
 .intro {
@@ -41,8 +38,8 @@ nav {
   flex-direction: column;
   width: 100%;
   margin: 0 1rem 0 0;
-  background: rgba(211, 211, 211, 0.7);
-  padding: 0.5rem 3rem 0.5rem 0.5rem;
+  padding: 5rem 3rem 0.5rem 0.5rem;
+  background-image: url(img/blockchain-wp.jpg);
 }
 
 .title {
@@ -68,15 +65,17 @@ nav {
 
 .intro-text {
   width: 90%;
-  border: solid 0.3em rgb(254, 248, 248);
+  border: solid 0.3em #fff;
   text-align: center;
   margin: auto;
   padding: 5px;
+  color: #65686d;
 }
 
 .dets {
   padding: 0.4rem;
   margin-bottom: 3rem;
+  color: #65686d;
 }
 
 h2 {
@@ -85,7 +84,7 @@ h2 {
   letter-spacing: 0.1em;
 }
 
-.program-dets {
+#program-dets {
   background: #272a31;
   padding: 0.5rem;
   text-align: center;
@@ -140,6 +139,19 @@ h3 {
   color: #fff;
 }
 
+.partner {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 7rem;
+  padding: 0.5rem;
+  align-items: center;
+  margin: auto;
+}
+
 .p-text {
   font-size: 12px;
   font-weight: 400;
@@ -147,7 +159,7 @@ h3 {
   color: #fff;
 }
 
-button {
+.button {
   background: #ec5242;
   width: 16rem;
   padding: 1rem;
@@ -166,6 +178,22 @@ button {
   z-index: 50;
   background-color: #cc8c85;
   position: fixed;
+  animation: slideIn ease-out 0.4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.no-display {
+  display: none;
 }
 
 li {
@@ -184,8 +212,146 @@ a {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin: 6rem 3rem auto auto;
+  margin: 6rem 3rem 15% 10%;
   width: 70%;
+}
+
+.sub-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+  gap: 0.5rem;
+  margin: auto;
+}
+
+.hold {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.1rem;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+.btn {
+  width: 100%;
+  border: solid 1px #65686d;
+  background-color: #fff;
+  padding: 0.8rem;
+  border-radius: 0.5em;
+}
+
+.bi-arrow-down {
+  color: #ec5242;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 99%;
+  gap: 0.8rem;
+}
+
+.spk-img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.spk-text {
+  text-align: start;
+}
+
+.name {
+  color: #272a31;
+}
+
+.position {
+  font-size: 12px;
+  color: #ec5242;
+}
+
+.role {
+  font-size: 12px;
+}
+
+.logo-container {
+  width: 30%;
+}
+
+.coinbase {
+  width: 5rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.binance {
+  width: 6rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.kraken {
+  width: 7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-top: -0.8rem;
+}
+
+.luno {
+  width: 6rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.foot {
+  display: block;
+  padding-top: 1.3rem;
+  padding-bottom: 1rem;
+  background: #272a31;
+  text-align: center;
+}
+
+.feat {
+  text-align: center;
+  color: #272a31;
+}
+
+.foot-text {
+  display: block;
+  left: 50%;
+  font-size: 12px;
+  width: 40%;
+  padding: 0.3rem;
+  color: #272a31;
+  margin-left: 50%;
+  margin-right: 1%;
+  margin-bottom: 0;
+}
+
+.foot-logo {
+  width: 10rem;
+  height: 5rem;
+  margin-left: 8%;
+  margin-top: 1rem;
+}
+
+.cr {
+  display: block;
+  margin-left: 51%;
+  margin-top: -4rem;
+  width: 40%;
+  bottom: 0.5rem;
+  color: #272a31;
+}
+
+footer {
+  display: block;
+  background-color: #fff;
+  padding-bottom: 1rem;
 }
 
 .bi-x {
@@ -227,8 +393,13 @@ a {
   }
 
   .add-menu {
-    display: block;
-    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+    padding-top: 1rem;
+    margin-left: 20%;
   }
 
   .top-nav-item {
@@ -267,6 +438,20 @@ a {
     width: 65%;
   }
 
+  .menu :nth-child(6) {
+    font-weight: 600;
+    border: #ec5242 solid 3px;
+    padding: 0 0.3rem;
+  }
+
+  .bcw {
+    color: #ec5242;
+  }
+
+  .act {
+    color: #ec5242;
+  }
+
   li {
     color: #272a31;
     font-size: 20px;
@@ -291,8 +476,12 @@ a {
     margin-left: 15%;
   }
 
-  .program-dets {
+  #program-dets {
     padding-bottom: 3rem;
+  }
+
+  .btn {
+    display: none;
   }
 
   .grid {
@@ -359,6 +548,65 @@ a {
     margin: auto;
   }
 
+  #fsp {
+    width: 100%;
+    padding: 3rem 0.5rem;
+  }
+
+  .feat {
+    text-align: center;
+    color: #272a31;
+  }
+
+  .sub-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    gap: 0.5rem;
+    margin: auto;
+  }
+
+  .hold {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.1rem;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
+
+  .speaker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    gap: 0.8rem;
+  }
+
+  .spk-img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .spk-text {
+    text-align: start;
+  }
+
+  .name {
+    color: #272a31;
+  }
+
+  .position {
+    font-size: 12px;
+    color: #ec5242;
+  }
+
+  .role {
+    font-size: 12px;
+  }
+
   .logo-container {
     width: 30%;
   }
@@ -403,7 +651,7 @@ a {
     width: 40%;
     padding: 0.3rem;
     color: #272a31;
-    margin: 0.5rem 0.5rem 2% 57%;
+    margin: 0.5rem 0.5rem 2% 56%;
   }
 
   .foot-logo {
@@ -414,12 +662,12 @@ a {
   }
 
   .cr {
-    display: block;
-    margin-left: 57%;
     margin-top: -4rem;
+    margin-left: 56%;
     width: 40%;
     bottom: 1rem;
     color: #272a31;
+    padding: 0.4rem;
   }
 
   footer {
