@@ -1,108 +1,96 @@
-const firstSpk = {
-  name: 'Jesse Powell',
-  position: 'CEO of Kraken.',
-  role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
-  img: 'img/jesse-powell-kraken.jpeg',
-};
+const spkArr = [
+  {
+    names: 'Jesse Powell',
+    position: 'CEO of Kraken.',
+    role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
+    img: 'img/jesse-powell-kraken.jpeg',
+    alt: 'speaker one',
+  },
+  {
+    names: 'Marcus Swanepoel',
+    position: 'CEO of Luno.',
+    role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
+    img: 'img/Marcus-Swanepoel-luno.jpg',
+    alt: 'speaker two',
+  },
+  {
+    names: 'Sergey Nazarov',
+    position: 'CEO of Chainlink.',
+    role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
+    img: 'img/Sergey-Nazarov-chainlink.jpg',
+    alt: 'speaker three',
+  },
+  {
+    names: 'Vitalik Buterin',
+    position: 'Founder of Ethereum.',
+    role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
+    img: 'img/vitalik-buterin.jpg',
+    alt: 'speaker four',
+  },
+  {
+    names: 'CZ',
+    position: 'CEO of Binance.',
+    role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
+    img: 'img/CZ-binance.jpg',
+    alt: 'speaker five',
+  },
+  {
+    names: 'Brian Armstrong',
+    position: 'CEO of Coinbase.',
+    role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
+    img: 'img/brian-armstrong-coinbase.jpg',
+    alt: 'speaker six',
+  },
+];
 
-const secondSpk = {
-  name: 'Marcus Swanepoel',
-  position: 'CEO of Luno.',
-  role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
-  img: 'img/Marcus-Swanepoel-luno.jpg',
-};
+function generate(speakerObj, index) {
+  const speaker = document.createElement('div');
+  speaker.classList.add('speaker');
 
-const thirdSpk = {
-  name: 'Sergey Nazarov',
-  position: 'CEO of Chainlink.',
-  role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
-  img: 'img/Sergey-Nazarov-chainlink.jpg',
-};
+  const imgs = document.createElement('img');
+  imgs.classList.add('spk-img');
+  imgs.src = speakerObj[index].img;
+  imgs.alt = speakerObj[index].alt;
 
-const fourthSpk = {
-  name: 'Vitalik Buterin',
-  position: 'Founder of Ethereum.',
-  role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
-  img: 'img/vitalik-buterin.jpg',
-};
+  speaker.appendChild(imgs);
 
-const fifthSpk = {
-  name: 'CZ',
-  position: 'CEO of Binance.',
-  role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
-  img: 'img/CZ-binance.jpg',
-};
+  const speakerText = document.createElement('div');
+  speakerText.classList.add('spk-text');
 
-const lastSpk = {
-  name: 'Brian Armstrong',
-  position: 'CEO of Coinbase.',
-  role: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga rem sequi dolore',
-  img: 'img/brian-armstrong-coinbase.jpg',
-};
+  const names = document.createElement('h3');
+  names.classList.add('name');
+  names.textContent = speakerObj[index].names;
 
-const spkArr = [firstSpk, secondSpk, thirdSpk, fourthSpk, fifthSpk, lastSpk];
+  const positions = document.createElement('i');
+  positions.classList.add('position');
+  positions.textContent = speakerObj[index].position;
 
-window.addEventListener('load', () => {
+  const roles = document.createElement('p');
+  roles.classList.add('role');
+  roles.textContent = speakerObj[index].role;
+
+  speakerText.append(names, positions, roles);
+  speaker.appendChild(speakerText);
+  return speaker;
+}
+
+function renderSpeakers() {
   const fspCont = document.querySelector('#fsp');
+  const header = document.createElement('h3');
+  header.classList.add('feat');
+  header.innerText = 'Featured Speakers';
 
-  fspCont.innerHTML += `<h3 class="feat">Featured speakers</h3>
-    <div class="sub-cont">
-       <div class="hold">
-            <div class="speaker">
-               <img class="spk-img" src="${spkArr[0].img}" alt="speaker one">
-               <div class="spk-text">
-                  <h3 class="name">${spkArr[0].name}</h3>
-                  <i class="position">${spkArr[0].position}</i>
-                  <p class="role">${spkArr[0].role}</p>
-               </div>
-            </div>
-            <div class="speaker">
-               <img class="spk-img" src="${spkArr[1].img}" alt="speaker two">
-               <div class="spk-text">
-                  <h3 class="name">${spkArr[1].name}</h3>
-                  <i class="position">${spkArr[1].position}</i>
-                  <p class="role">${spkArr[1].role}</p>
-               </div>
-            </div>
-       </div>
-       <span id="break"></span>
-       <div class="hold activ">
-            <div class="speaker">
-               <img class="spk-img" src="${spkArr[2].img}" alt="speaker three">
-               <div class="spk-text">
-                  <h3 class="name">${spkArr[2].name}</h3>
-                  <i class="position">${spkArr[2].position}</i>
-                  <p class="role">${spkArr[2].role}</p>
-               </div>
-            </div>
-            <div class="speaker">
-               <img class="spk-img" src="${spkArr[3].img}" alt="speaker four">
-               <div class="spk-text">
-                  <h3 class="name">${spkArr[3].name}</h3>
-                  <i class="position">${spkArr[3].position}</i>
-                  <p class="role">${spkArr[3].role}</p>
-               </div>
-            </div>
-       </div>
+  const spkWrapper = document.createElement('div');
+  spkWrapper.classList.add('sub-cont');
 
-       <div class="hold activ">
-            <div class="speaker">
-               <img class="spk-img" src="${spkArr[4].img}" alt="speaker five">
-               <div class="spk-text">
-                  <h3 class="name">${spkArr[4].name}</h3>
-                  <i class="position">${spkArr[4].position}</i>
-                  <p class="role">${spkArr[4].role}</p>
-               </div>
-            </div>
-            <div class="speaker">
-               <img class="spk-img" src="${spkArr[5].img}" alt="speaker six">
-               <div class="spk-text">
-                  <h3 class="name">${spkArr[5].name}</h3>
-                  <i class="position">${spkArr[5].position}</i>
-                  <p class="role">${spkArr[5].role}</p>
-               </div>
-            </div>
-       </div>
-   </div>
-    `;
-});
+  for (let i = 0; i < spkArr.length; i += 2) {
+    const spkCont = document.createElement('div');
+    spkCont.classList.add('hold');
+    spkCont.append(generate(spkArr, i), generate(spkArr, i + 1));
+    spkWrapper.appendChild(spkCont);
+  }
+
+  fspCont.append(header, spkWrapper);
+}
+
+document.addEventListener('DOMContentLoaded', renderSpeakers);
