@@ -13,7 +13,7 @@ This is my first capstone project in the microverse curriculum. It tests all the
 
 ## Live Demo 
 
-https://TracyMuso.github.io/Capstone-project-1/
+Click [here](https://TracyMuso.github.io/Capstone-project-1/) for the live demo
 
 ### To get a local copy up and running follow these simple example steps.
 
