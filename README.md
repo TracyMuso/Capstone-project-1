@@ -3,7 +3,7 @@ This is my first capstone project in the microverse curriculum. It tests all the
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
-<img src="https://github.com/elfin-git/Capstone-project-1/blob/feature/img/screenshot-mobile.png" width="200" height="400"/> <img src="https://github.com/elfin-git/Capstone-project-1/blob/feature/img/screenshot-dsk.png" width="500" height="400"/>
+<img src="./img/screenshot-mobile.png" width="200" height="400"/> <img src="./img/screenshot-dsk.png" width="500" height="400"/>
 
 ## Built With
 
@@ -13,7 +13,7 @@ This is my first capstone project in the microverse curriculum. It tests all the
 
 ## Live Demo 
 
-https://elfin-git.github.io/Capstone-project-1/
+https://TracyMuso.github.io/Capstone-project-1/
 
 ### To get a local copy up and running follow these simple example steps.
 
@@ -23,7 +23,7 @@ https://elfin-git.github.io/Capstone-project-1/
 - Use of the [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) template 
 
 # Setup 
-- To clone the repository run [https://github.com/elfin-git/Capstone-project1] in your terminal
+- To clone the repository run [https://github.com/TracyMuso/Capstone-project1] in your terminal
 
 # Install
 - Set up Github Actions
@@ -34,15 +34,15 @@ https://elfin-git.github.io/Capstone-project-1/
 
 👤 **Tracy Musongole**
 
-- GitHub: [@githubhandle](https://github.com/elfin-git)
+- GitHub: [@githubhandle](https://github.com/TracyMuso)
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/tracy-musongole)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/tracy-muso)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/TracyMuso/Capstone-project-1/issues).
 
 ## Show your support
 
@@ -58,4 +58,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
