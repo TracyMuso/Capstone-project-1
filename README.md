@@ -1,5 +1,5 @@
 ## Capstone-project-1
-This is my first capstone project in the microverse curriculum. It tests all the knowledge I have gained in HTML, CSS and Javascript. I am a blockchain enthusiast so I made the theme of the website an online blockchain conference. Below I have shown a screenshot of what the home-page tooks like.
+This is my first capstone project in the microverse curriculum. It tests all the knowledge I have gained in HTML, CSS and Javascript. I am a blockchain enthusiast so I made the theme of the website an online blockchain conference. Below I have shown a screenshot of what the home-page tooks like. Currently only the about and home page are developed.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
